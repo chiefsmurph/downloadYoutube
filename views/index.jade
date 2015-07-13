@@ -1,0 +1,17 @@
+extends layout
+
+block header_includes
+  script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+  script(src='//cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js')
+  script(type='text/javascript', src='javascripts/socketClient.js')
+  script(type='text/javascript', src='javascripts/formSubmit.js')
+block content
+  h1= title
+  p Welcome to #{title}
+  form(method='post', id='newUrl', action='/')
+      h3
+        | Enter a bunch of Youtube url's and I'll get you a zip of all the mp3's
+      textarea(name='urls',cols='80',rows='20')
+      br
+      input(type='submit', value='Get the mp3')
+  div(id='output')

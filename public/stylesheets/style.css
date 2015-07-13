@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#output {
+  width: 100%;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 80%;
+  white-space: nowrap;
+  font-style: italic;
+  color: rgba(0,0,0,0.6);
+}

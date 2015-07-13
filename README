@@ -1,0 +1,31 @@
+--------------------
+downloadYoutube
+--------------------
+
+- converts a list of youtube url's into one zip files containing the mp3 audio.
+
+- uses sockets to pipe console output to the client
+
+- stores files on server for a given amount of seconds before removing both zip and mp3 directory folder
+
+libraries used:
+
+  - youtube-dl
+  - zip-dir
+  - sock.js
+
+------------------------------------
+for optimal effect...
+copy and paste this sample playlist
+------------------------------------
+https://www.youtube.com/watch?v=zlxH9-TYseY
+https://www.youtube.com/watch?v=wUL8NklXDsw
+https://www.youtube.com/watch?v=0Gqh4e1S6j0
+https://www.youtube.com/watch?v=VeLOinc0XKw
+https://www.youtube.com/watch?v=wiLqAu4s-_s
+https://www.youtube.com/watch?v=OK1aFadJWgk
+https://www.youtube.com/watch?v=hsEsSB5390I
+https://www.youtube.com/watch?v=zBXI9_-sRMc
+https://www.youtube.com/watch?v=V1LPKaa7WFo
+https://www.youtube.com/watch?v=mlYgTU1QAjE
+https://www.youtube.com/watch?v=UX0I0nlzWQY

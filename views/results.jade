@@ -1,0 +1,14 @@
+extends layout
+
+block header_includes
+  script(src='//cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js')
+  script(type='text/javascript', src='javascripts/socketClient.js')
+
+block content
+  h1 Results for #{title}
+  #results
+    | Download: 
+    a(href='/dl/#{dl_link}') #{dl_link}.zip
+    br
+    br
+    a(href='/') ...or submit more url's?
